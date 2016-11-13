@@ -2,8 +2,8 @@
 // ES6 WITHOUT POLYMER //
 /////////////////////////
 
-export default class HelloWorldA extends HTMLElement {
-  _hello: string = "Hello World"
+export default class BoxSearchA extends HTMLElement {
+  _boxSearch: string = "Box Search"
   constructor() {
     super()
     let s = document.createElement('style')

@@ -1,0 +1,49 @@
+<!--
+Polymer box-search element.
+
+    <box-search></box-search>
+
+@demo demo/index.html
+@hero hero.svg
+-->
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../paper-input/paper-input.html">
+<dom-module id="box-search">
+    <template>
+    <style>
+      :host {
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid red;
+        margin-top: 10px;
+        padding: 0px 5px;
+      }
+    </style>
+
+
+    <paper-input label="boxSearch" id="BoxSearch">
+
+
+    </paper-input>
+
+
+
+  </template>
+    <script>
+        class BoxSearch extends Polymer.Element {
+            static get is() {
+                return 'box-search';
+            }
+            static get config() {
+                return {};
+            }
+            constructor() {
+                super();
+            }
+            connectedCallback() {
+                super.connectedCallback();
+            }
+        }
+        customElements.define(BoxSearch.is, BoxSearch);
+    </script>
+</dom-module>

@@ -1,13 +1,13 @@
 <!-- EXPERIMENTAL <script type="ts/module">
-Polymer hello-world element.
+Polymer box-search element.
 
-    <hello-world></hello-world>
+    <box-search></box-search>
 
 @demo demo/index.html
 @hero hero.svg
 -->
 <link rel="import" href="../polymer/polymer-element.html">
-<dom-module id="hello-world">
+<dom-module id="box-search">
   <template>
     <style>
       :host {
@@ -21,12 +21,12 @@ Polymer hello-world element.
     <p>Test <slot></slot></p>
   </template>
   <script type="ts/module">
-    class HelloWorld extends Polymer.Element {
-      _hello: string = 'Hello World'
+    class BoxSearch extends Polymer.Element {
+      _boxSearch: string = 'Box Search'
       static get is() {
         const test: string = 'test intelli'
         test.toUpperCase()
-        return 'hello-world';
+        return 'box-search';
       }
       static get config() {
         return {};
@@ -38,6 +38,6 @@ Polymer hello-world element.
         super.connectedCallback();
       }
     }
-    customElements.define(HelloWorld.is, HelloWorld);  
+    customElements.define(BoxSearch.is, BoxSearch);  
   </script>
 </dom-module>

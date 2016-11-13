@@ -2,9 +2,9 @@
 // ES6 POLYMORPHISM //
 //////////////////////
 
-import HelloWorldA from "hello-world-a"
+import BoxSearchA from "box-search-a"
 
-class HelloWorldB extends HelloWorldA {
+class BoxSearchB extends BoxSearchA {
   constructor() {
     super()
   }
@@ -13,4 +13,4 @@ class HelloWorldB extends HelloWorldA {
   }
 }
 
-customElements.define('hello-world-b', HelloWorldB)
+customElements.define('box-search-b', BoxSearchB)

@@ -1,6 +1,6 @@
-# hello-world
+# box-search
 
-Custom Elements v1 typescript Hello World example.
+Custom Elements v1 typescript Box Search example.
 
 ## Install
 
@@ -13,8 +13,8 @@ Custom Elements v1 typescript Hello World example.
     tsc
     polymer serve
 
-hello-world [demo](http://localhost:8080/components/hello-world/demo/)
+box-search [demo](http://localhost:8080/components/box-search/demo/)
 
-hello-world [documentation](http://localhost:8080/components/hello-world/)
+box-search [documentation](http://localhost:8080/components/box-search/)
 
-hello-world [test](http://localhost:8080/components/hello-world/test/index.html)
+box-search [test](http://localhost:8080/components/box-search/test/index.html)

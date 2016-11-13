@@ -1,8 +1,8 @@
 {
-  "name": "hello-world",
+  "name": "box-search",
   "version": "0.0.0",
   "private": true,
-  "main": "hello-world.html",
+  "main": "box-search.html",
   "ignore": [
     "bower_components",
     "node_modules",
@@ -14,10 +14,14 @@
   "dependencies": {
     "polymer": "Polymer/polymer#2.0-preview",
     "webcomponentsjs": "#v1",
-    "requirejs": "^2.3.2"
+    "requirejs": "^2.3.2",
+    "paper-input": "PolymerElements/paper-input#^1.1.20"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
     "web-component-tester": "*"
+  },
+  "resolutions": {
+    "iron-validatable-behavior": "2.0-preview"
   }
 }
